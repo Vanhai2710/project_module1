@@ -1,0 +1,183 @@
+body
+	{
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: arial;
+    background-color: rgb(59, 59, 59);
+	} 
+.head {
+	display: flex;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
+	height: 60px;
+	background-color: black;
+}
+
+.head1{
+	width: 80%;
+	margin:0px auto;
+	display: flex;
+    align-items: center;
+}
+
+.nhap{
+	
+	width: 400px;
+	height: 35px;
+	border: solid 1px white;
+	border-radius: 50px;
+	margin-left: 70px;
+	background-color: rgb(94, 94, 94);
+	display: flex;
+    border-color: white;
+}
+
+.nhap1 input{
+	margin-left: 20px;
+	height: 25px;
+	width: 350px;
+	margin-top: 3px;
+	border: none;
+	outline: none;
+	background-color: rgb(94, 94, 94);
+	padding-top: 3px;
+}
+
+.text{
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.text a{
+	text-decoration: none;
+}
+
+a {
+	color: white;
+}
+
+.content{
+	width: 100%;
+	background-color:black;
+	height: 40px;
+	margin-top: 3px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.content1{
+	margin-left: 120px;
+	padding-top: 10px;
+	 --red: rgba(212, 44, 44, 1);
+    --red-selected: rgba(170, 35, 35, 0.9);
+}
+
+.main
+{
+	width: 100%;
+	margin: 0px auto;
+	padding-top: 3px;
+}
+
+.row{
+	width: 90%;
+	margin: 0px auto;
+	display: flex;
+	
+}
+
+.mang{
+	width: 16%;
+	margin: 10px;
+	text-align: center;
+	
+}
+.mang a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+.mang img {
+	height: 250px;
+	
+}
+
+.end {
+	width: 100%;
+	padding: 5px;
+	background-color: white;
+	display: flex;
+}
+
+.end1 {
+	margin-left: 10px;
+}
+
+a {
+    color: white;
+}
+
+.mang a img {
+	border-radius: 8px;
+	
+}
+
+h2 {
+    text-indent:85px;
+}
+
+.button1 {
+	padding: 5px;
+	margin: 12px;
+	border-radius: 7px;
+	background-color: red;	
+	color: white;
+	font-size: 13px;
+	border: 1px;
+	align-items: center;
+	justify-content: center;
+}
+.button2 {
+	padding: 5px;
+    text-indent: 0px;
+    border-radius: 7px;
+    background-color: red;	
+	color: white;
+	font-size: 14px;
+	border: 1px;
+}
+
+.button1:hover {
+	opacity: 0.7;
+  }
+
+.button2:hover {
+	opacity: 0.7;
+}  
+
+/* ----------------- */
+.mang:hover {
+	transform: scale(1.1);
+	max-width: 100%;
+	transition: all 0.5s ease-in-out;
+	;
+	
+}
+
+
+/* .mang a img {
+	max-width: 100%;
+	transition: all 0.3s ease-in-out;
+}
+ .mang:hover img {
+	transform: scale(1.1);
+}   */
+/* -----------------*/
+
+
+
+
+
